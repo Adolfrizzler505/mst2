@@ -20,6 +20,9 @@ int main()
     temp = name[start];
     name[start] = name[end];
     name[end] = temp;
+
+    start++;
+    end--;
   }  
 
   printf("Reversed string is %s", name);
